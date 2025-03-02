@@ -6,13 +6,15 @@ import './App.css';
 function App() {
   return (
     <>
-      <Header />
-      <Nav />
+      <div className="header">
+        <Header />
+        <Nav />
+      </div>
       <main>
-        <section id="hero"></section>
-        <section id="highlights"></section>
-        <section id="testimonials"></section>
-        <section id="about"></section>
+        <section className="hero">Hero</section>
+        <section className="highlights">Highlights</section>
+        <section className="testimonials">Testimonials</section>
+        <section className="about">About</section>
       </main>
       <Footer />
     </>
